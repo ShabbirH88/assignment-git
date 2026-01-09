@@ -1,0 +1,49 @@
+body {
+
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header {
+  padding-top:5px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.logoo {width: 140px;
+  height: 60;
+
+}
+nav .menu{
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+nav .menu a{
+  color: #000;
+  text-decoration: none;
+  list-style-type: none;
+}
+.btn{
+  background-color: #30B868;
+  border: none;
+  padding: 16px 12px;
+  border-radius:5px ;
+  font-size: 16;
+  font-weight: bold;
+  align-items: center;
+}
+.forbutton{
+  align-items: center;
+}
