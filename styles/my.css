@@ -65,7 +65,9 @@ nav .menu a{
 .banner-content{
 
 }
-
+.color-white{
+  color: white;
+}
 .banner-content h1{
   color:#30B868;
   text-align: center;
@@ -88,7 +90,9 @@ nav .menu a{
 .twobtn{
   text-align: center;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  display: flex;
+  gap: 20px;
 }
 .btnone{
   background-color: #30B868;
@@ -97,6 +101,8 @@ nav .menu a{
   border-radius:5px ;
   font-size: 16;
   font-weight: bold;
+  display: flex;
+  
 }
 .btntwo{
   color: ;
@@ -202,9 +208,10 @@ width: 450px;
   background-color:#F7F6F2;
   margin-top: 120px;
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
+  justify-content: center;
 
 }
 .offer h1{
@@ -226,5 +233,64 @@ width: 450px;
   font-weight: bold;
   align-items: center;
   color: white;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
 
+}
+.footerr{
+
+  background-color: #001931;
+  display: flex;
+  justify-content: space-between;
+ 
+ 
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+  width: 1400px;
+}
+.footer-logo img{
+  width: 130px;
+  height: 50px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.footer-social{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer-social img{
+  width: 22px;
+  height: 22px;
+  background-color:white;
+  border-radius: 50%;
+}
+.footer-social h6{
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+.footer-soci{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.footerr-bottom{
+  border: 1px solid;
+  margin-bottom: 120px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 100;
+  color: #FAFAFA;
+  background-color: #001931;
+ 
 }
