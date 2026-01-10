@@ -300,6 +300,7 @@ width: 450px;
   display: flex;
   gap: 16px;
   align-items: center;
+  cursor: pointer;
 }
 .footerr-bottom{
   border: 1px solid;
