@@ -151,5 +151,50 @@ nav .menu a{
 .box p{
   color: #627382;
 }
+#brain{
+ display: flex;
+ margin:0 auto;
+ margin-top: 100px;
+ width: 85%;
+ max-width: 1460px;
+ gap: 40px;
+}
 
+.brainer{
 
+  max-width: 480px;
+ 
+}
+.info-brain{
+
+ padding-top: 50px;
+
+}
+.brainer img{
+width: 450px;
+}
+.info-brain h5{
+  color: #30B868;
+  font-size: 20px;
+  font-weight: 500;
+}
+.info-brain h1{
+  color: #001931;
+}
+.info-brain p{
+  color: #627382;
+  font-size: 15px;
+}
+.info-brain ul{
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+.check-list li{
+  display: flex;
+  gap:5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000e7;
+  margin-bottom: 7px;
+}
