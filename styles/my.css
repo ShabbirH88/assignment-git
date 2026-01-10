@@ -43,6 +43,10 @@ nav .menu a{
   font-size: 16;
   font-weight: bold;
   align-items: center;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #5ce86a;
 }
 .forbutton{
   align-items: center;
@@ -102,7 +106,11 @@ nav .menu a{
   font-size: 16;
   font-weight: bold;
   display: flex;
+  cursor: pointer;
   
+}
+.btnone:hover{
+  background-color: black;
 }
 .btntwo{
   color: ;
@@ -112,6 +120,10 @@ nav .menu a{
   font-weight: bold;
   background-color: transparent;
   border:1 px solid;
+  cursor: pointer;
+}
+.btntwo:hover{
+  background-color: #30B868;
 }
 .quote h2{
   color:black;
@@ -138,6 +150,7 @@ nav .menu a{
  max-width: 300px;
  text-align: center;
  align-items: center;
+ background-color:#FFFFFF;
 }
 .box img{
   width: 17px;
@@ -190,6 +203,7 @@ width: 450px;
 .info-brain p{
   color: #627382;
   font-size: 15px;
+  max-width: 500px;
 }
 .info-brain ul{
   margin-top: 20px;
@@ -212,7 +226,10 @@ width: 450px;
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
-
+  max-width: 1460;
+  width: 85%;
+  align-items: center;
+  margin-left: 80px;
 }
 .offer h1{
   font-size: 40px;
@@ -236,15 +253,15 @@ width: 450px;
   display: flex;
   text-align: center;
   margin: 0 auto;
-
+  cursor: pointer;
+}
+.offer button:hover{
+  background-color: #042908;
 }
 .footerr{
-
   background-color: #001931;
   display: flex;
   justify-content: space-between;
- 
- 
 }
 .footer-top{
   display: flex;
@@ -286,7 +303,6 @@ width: 450px;
 }
 .footerr-bottom{
   border: 1px solid;
-  margin-bottom: 120px;
   text-align: center;
   font-size: 12px;
   font-weight: 100;
